@@ -1,3 +1,33 @@
-body h1{
-    font-family: 'Times New Roman', Times, serif;
+
+body{
+    background-color: #DADCB7;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: #3E363F;
+    height: 70px;
+}
+
+header nav{
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: 70px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color:#3E363F;
+}
+
+header nav a:hover{
+    background: #3E363F;
+    color: #B4BB85;
 }
