@@ -25,6 +25,9 @@ header nav a{
     justify-items: center;
     align-items: center;
     color:#3E363F;
+    border-radius: 5px;
+    height: 27px;
+    padding: 3px
 }
 
 header nav a:hover{
