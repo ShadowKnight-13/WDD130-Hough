@@ -4,7 +4,7 @@ body{
 }
 
 header p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", Arial;
     float: left;
     color: #3E363F;
     height: 70px;
@@ -20,7 +20,7 @@ header nav{
 
 header nav a{
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comic Sans MS", Arial;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -33,4 +33,30 @@ header nav a{
 header nav a:hover{
     background: #3E363F;
     color: #B4BB85;
+}
+
+#hero-msg{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#hero-msg h1{
+    grid-column: 2, 4;
+    color: #DADCB7;
+    font-family:  "Comic Sans MS", Arial;
+    font-size: 4em;
+}
+
+#hero-msg section{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("Images/image1.png");
+    border: solid 3px #3E363F;
+    border-radius: 5px;
+
+
 }
