@@ -60,7 +60,11 @@ header nav a:hover{
     grid-row-start: 1;
     grid-row-end: 4;
     background-image: url("Images/image1.png");
+    background-size:contain;
+    background-repeat: no-repeat;
     border: solid 3px #3E363F;
+    width: 100%;
+    height:1523px;
     border-radius: 5px;
 
 
