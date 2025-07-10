@@ -96,28 +96,68 @@ a.find-game:hover{
 }
 
 #pick-up-games-intrest{
-    background-color: #3E363F;
+    background-color: #B4BB85;
     padding: 30px 30px;
     margin: 20px 10px;
-    color:#3E363F;
+    color:#697A21;
     grid-column-start: 1;
     grid-column-end: 2;
+    border: 3px solid #3E363F;
+    border-radius: 5px;
 }
 
 #intramurals-intrest{
-    background-color: #3E363F;
+    background-color:  #B4BB85;
     padding: 30px 30px;
     margin: 20px 10px;
-    color:#3E363F;
+    color:#697A21;
     grid-column-start: 2;
     grid-column-end: 3;
+     border: 3px solid #3E363F;
+    border-radius: 5px;
 }
 
 #competitive-intrest{
-    background-color: #3E363F;
+    background-color:  #B4BB85;
     padding: 30px 30px;
     margin: 20px 10px;
-    color:#3E363F;
+    color:#697A21;
     grid-column-start: 3;
     grid-column-end: 4;
+     border: 3px solid #3E363F;
+    border-radius: 5px;
+}
+
+#pick-up-games-intrest img{
+    border: 3px solid #3E363F;
+    border-radius: 5px;
+}
+
+#intramurals-intrest img{
+    border: 3px solid #3E363F;
+    border-radius: 5px;
+}
+
+#competitive-intrest img{
+    border: 3px solid #3E363F;
+    border-radius: 5px;
+}
+
+table {
+    grid-column: 1 / 4;
+    clear:both;
+    grid-row: 1 / 2 ;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #B4BB85;
+}
+
+tr:nth-child(odd) {
+  color: #3E363F;
 }
