@@ -89,3 +89,35 @@ a.find-game:hover{
     background-color: #DADCB7;
     color:#3E363F;
 }
+
+.intrests{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#pick-up-games-intrest{
+    background-color: #3E363F;
+    padding: 30px 30px;
+    margin: 20px 10px;
+    color:#3E363F;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#intramurals-intrest{
+    background-color: #3E363F;
+    padding: 30px 30px;
+    margin: 20px 10px;
+    color:#3E363F;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#competitive-intrest{
+    background-color: #3E363F;
+    padding: 30px 30px;
+    margin: 20px 10px;
+    color:#3E363F;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
