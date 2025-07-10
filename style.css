@@ -42,7 +42,6 @@ header nav a:hover{
 }
 
 #hero h1{
-    grid-column: 2, 4;
     color: #DADCB7;
     font-family:  "Comic Sans MS", Arial;
     font-size: 4em;
@@ -66,6 +65,27 @@ header nav a:hover{
     width: 100%;
     height:1523px;
     border-radius: 5px;
+}
 
+#hero div.button-box{
+    display: flex;
+    justify-content: center;
+}
 
+a.find-game{
+    background-color: #3E363F;
+    color: #B4BB85;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.find-game:hover{
+    background-color: #DADCB7;
+    color:#3E363F;
 }
