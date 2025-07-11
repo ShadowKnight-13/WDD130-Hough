@@ -63,7 +63,7 @@
 
     .table-placeholder, .footer-placeholder {
       background-color: #ccc;
-      height: 150px;
+      height: 210px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -79,16 +79,32 @@
     #soccer{
         width: 65%;
     }
+    table {
+        grid-column: 1 / 4;
+        clear:both;
+        grid-row: 1 / 2 ;
+    }
+    th, td {
+        text-align: left;
+        padding: 16px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #B4BB85;
+    }
+
+    tr:nth-child(odd) {
+        color: #3E363F;
+    }
   </style>
 </head>
 <body>
   <header>
     <div><strong>BYUSOCCERINVOLVEMENT</strong></div>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Page1</a>
-      <a href="#">Page2</a>
-      <button class="btn">Button</button>
+      <a href="index.html">Home</a>
+      <a href="page2.html">Page1</a>
+      <a href="page3.html">Page2</a>
     </nav>
   </header>
 
@@ -106,12 +122,54 @@
     </div>
 
     <div class="table-placeholder">
-      A table of the competitive dates and times<br />
-      along with the location for them.
+      <table>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Type</th>
+            <th>Who</th>
+        </tr>
+
+        <tr>
+            <td>09/20/2025</td>
+            <td>9:00am</td>
+            <td>BYU-I Stadium</td>
+            <td>Competitive</td>
+            <td>Cougers vs Coyotes</td>
+        </tr>
+
+         <tr>
+            <td>09/20/2025</td>
+            <td>11:30am</td>
+            <td>BYU-I Stadium</td>
+            <td>Intramurals</td>
+            <td>Team 1 vs Team 6</td>
+        </tr>
+
+         <tr>
+            <td>09/21/2025</td>
+            <td>9:30am</td>
+            <td>Fields by the Temple</td>
+            <td>Competitive</td>
+            <td>Jaguars vs Vikings</td>
+        </tr>
+
+         <tr>
+            <td>09/23/2025</td>
+            <td>4:15pm</td>
+            <td>Walmart Parking Lot</td>
+            <td>Pick up game</td>
+            <td>Anyone</td>
+        </tr>
+
+    </table>
     </div>
 
     <div class="footer-placeholder">
-      A footer talking about IMLEAGUES with a link to it and their symbol. With a Get involved statement
+        BYU–Idaho uses IMLeagues to organize all of its intramural sports and campus recreation activities. Students can sign up for leagues, join teams, and check game schedules all in one place. It's a fun and easy way to stay active, meet new people, and enjoy friendly competition on campus.
+        
+        <a href="https://www.imleagues.com/spa/intramural/c253b98991dd43e689d28b55ff8f0f85/home">IMLeagues</a>
     </div>
   </main>
 </body>
